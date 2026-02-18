@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanuMovies 2.o | Premium Streaming</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="mobile-header d-lg-none">
+        <h2 class="logo">H<span>M</span></h2>
+        <div id="menuToggle">
+            <i class="bi bi-list" id="menuIcon"></i>
+        </div>
+    </nav>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="logo-box d-none d-lg-block">
+            <h2 class="logo">H<span>M</span></h2>
+        </div>
+        <div class="nav-icons">
+            <a href="index.html" class="active"><i class="bi bi-house-door-fill"></i></a>
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-collection-play"></i></a>
+            <a href="login.html"><i class="bi bi-person-circle"></i></a>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="hero-banner">
+            <div class="hero-overlay">
+                <div class="hero-text">
+                    <span class="badge rounded-pill bg-danger mb-2">#1 TRENDING</span>
+                    <h1>THE LAST STAND</h1>
+                    <p class="hero-desc">Watch the global blockbuster exclusively on HanuMovies 2.o.</p>
+                    <div class="mt-4">
+                        <a href="https://www.youtube.com/@Doctor_php" class="btn btn-warning px-4 py-2 fw-bold me-2 text-decoration-none text-dark">Watch Now</a>
+                        <button class="btn btn-outline-light px-4 py-2 fw-bold">+ My List</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="movie-section">
+            <h4 class="section-title">Latest Movies</h4>
+            <div class="movie-grid" id="movieGrid"></div>
+        </section>
+    </main>
+
+    <div class="modal fade" id="downloadModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="popMovieTitle">Movie Name</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="text-secondary">Select Video Quality</p>
+                    <div class="d-grid gap-3">
+                        <button class="btn btn-outline-warning fw-bold">Download 720p</button>
+                        <button class="btn btn-outline-warning fw-bold">Download 1080p</button>
+                    </div>
+                    <p class="small text-muted mt-4">Thanks for visiting <strong>HanuMovies</strong>! Share with friends.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
