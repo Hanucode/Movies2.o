@@ -1,7 +1,7 @@
 const movies = [
     { 
         title: "Shivam Bhaje (2024)", 
-        img: "https://m.media-amazon.com/images/M/MV5BNTY4MzhmZjMtOTdiMC00NDhlLWI5ZTgtNDExZDQ5MmNjYTRlXkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg", 
+        img: "https://en.wikipedia.org/wiki/File:Shivam_Bhaje.jpg", 
         downloadLink: "https://rogmovies.vip/download-shivam-bhaje-2024-hindi-org-dubbed-480p-720p-1080p-web-dl/"
     },
     { 
